@@ -1,0 +1,10 @@
+namespace: dev
+
+resources:
+  - ../base
+
+images:
+  - name: ghcr.io/organization-demo-task/demo-front
+    newTag: v0.1.0-dev
+  - name: ghcr.io/organization-demo-task/demo-back
+    newTag: v0.1.0-dev
