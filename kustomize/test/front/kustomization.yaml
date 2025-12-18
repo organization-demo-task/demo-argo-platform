@@ -1,10 +1,8 @@
 namespace: test
 
 resources:
-  - ../base
+  - ../../base/front.yaml
 
 images:
   - name: ghcr.io/organization-demo-task/demo-front
-    newTag: v0.1.0-test
-  - name: ghcr.io/organization-demo-task/demo-back
     newTag: v0.1.0-test

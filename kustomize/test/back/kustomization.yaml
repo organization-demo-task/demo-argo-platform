@@ -1,0 +1,8 @@
+namespace: test
+
+resources:
+  - ../../base/back.yaml
+
+images:
+  - name: ghcr.io/organization-demo-task/demo-back
+    newTag: v0.1.0-test
