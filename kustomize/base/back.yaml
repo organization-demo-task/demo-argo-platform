@@ -12,6 +12,8 @@ spec:
       labels:
         app: demo-back
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: back
           image: ghcr.io/organization-demo-task/demo-back

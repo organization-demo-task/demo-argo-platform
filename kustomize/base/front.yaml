@@ -12,6 +12,8 @@ spec:
       labels:
         app: demo-front
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: front
           image: ghcr.io/organization-demo-task/demo-front
