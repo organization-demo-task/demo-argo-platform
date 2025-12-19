@@ -43,7 +43,7 @@ Cada microservicio se despliega de forma independiente con su propio:
 Cada ambiente es gestionado mediante **overlays de Kustomize**.
 
 ## Estructura del repositorio
-
+'''
 demo-argo-platform/
 ├── applications/
 │ ├── dev/
@@ -62,6 +62,7 @@ demo-argo-platform/
 └── test/
 ├── front/
 └── back/
+'''
 
 - **base**: recursos comunes (sin datos de ambiente)
 - **dev / test**: definición de diferencias por ambiente, TAGs de imagen
