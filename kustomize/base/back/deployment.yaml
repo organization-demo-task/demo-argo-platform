@@ -16,6 +16,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: back
-          image: ghcr.io/organization-demo-task/demo-back:v0.1.0-dev
+          image: ghcr.io/organization-demo-task/demo-back
           ports:
             - containerPort: 8000

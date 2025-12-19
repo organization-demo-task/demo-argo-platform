@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
   - ../../base/back
+
+images:
+  - name: ghcr.io/organization-demo-task/demo-back
+    newTag: v0.1.1-test

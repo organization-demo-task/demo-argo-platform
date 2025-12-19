@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
   - ../../base/front
+
+images:
+  - name: ghcr.io/organization-demo-task/demo-front
+    newTag: v0.1.1-dev
