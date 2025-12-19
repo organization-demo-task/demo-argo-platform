@@ -16,6 +16,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: front
-          image: ghcr.io/organization-demo-task/demo-front:v0.1.0-dev
+          image: ghcr.io/organization-demo-task/demo-front:v0.1.1-dev
           ports:
             - containerPort: 80
