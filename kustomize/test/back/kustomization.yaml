@@ -1,8 +1,5 @@
-namespace: test
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 
 resources:
-  - ../../base/back.yaml
-
-images:
-  - name: ghcr.io/organization-demo-task/demo-back
-    newTag: v0.1.0-test
+  - ../../base/back
