@@ -80,4 +80,26 @@ Ejemplo de definición de versión en DEV:
 images:
   - name: ghcr.io/organization-demo-task/demo-back
     newTag: v0.1.1-dev
+```
 
+```
+Developer
+   |
+   v
+demo-app (GitHub)
+   |
+   |  Build & Push Image
+   v
+GitHub Container Registry (GHCR)
+   |
+   |  Update image tag
+   v
+demo-argo-platform (GitOps)
+   |
+   |  Reconciliation
+   v
+ArgoCD
+   |
+   v
+Kubernetes Cluster (dev / test)
+```
