@@ -6,4 +6,4 @@ resources:
 
 images:
   - name: ghcr.io/organization-demo-task/demo-front
-    newTag: v0.1.4-dev
+    newTag: v0.1.3-dev
